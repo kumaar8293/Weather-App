@@ -156,7 +156,7 @@ public class HomeActivity extends AppCompatActivity implements HomeAdapter.OnIte
             errorImage.setVisibility(View.VISIBLE);
             Toast.makeText(HomeActivity.this, s, Toast.LENGTH_LONG).show();
         });
-        viewModel.searchWeatherByCity("Bangloew");
+        viewModel.searchWeatherByCity("Bengaluru");
     }
 
     private MaterialTapTargetPrompt mFabPrompt;
