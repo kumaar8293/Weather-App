@@ -1,7 +1,10 @@
 # Weather-App
 > A simple weather android app inspired in material design based on City Name
 
+## Enter City Name to get current Weather details
 <img src="image/add_city.png" width="380">
+
+## Dashboard
 <img src="image/dashboard.png" width="380">
 # Requirements
  - Android 5.0 (API 21) or above 
