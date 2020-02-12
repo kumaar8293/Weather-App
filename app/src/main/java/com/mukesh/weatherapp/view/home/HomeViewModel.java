@@ -1,10 +1,10 @@
-package com.example.weatherapp.view.home;
+package com.mukesh.weatherapp.view.home;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.example.weatherapp.datamodel.Weather;
-import com.example.weatherapp.repository.Repository;
+import com.mukesh.weatherapp.datamodel.Weather;
+import com.mukesh.weatherapp.repository.Repository;
 
 import java.util.ArrayList;
 

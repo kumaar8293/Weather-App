@@ -1,17 +1,16 @@
-package com.example.weatherapp.repository;
+package com.mukesh.weatherapp.repository;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
-import com.example.weatherapp.datamodel.Weather;
-import com.example.weatherapp.restapi.ApiClient;
-import com.example.weatherapp.restapi.ApiInterface;
+import com.mukesh.weatherapp.datamodel.Weather;
+import com.mukesh.weatherapp.restapi.ApiClient;
+import com.mukesh.weatherapp.restapi.ApiInterface;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
 import retrofit2.Call;
 import retrofit2.Callback;

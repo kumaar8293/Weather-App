@@ -1,4 +1,4 @@
-package com.example.weatherapp.view.home;
+package com.mukesh.weatherapp.view.home;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -18,8 +18,8 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.weatherapp.R;
-import com.example.weatherapp.datamodel.Weather;
+import com.mukesh.weatherapp.R;
+import com.mukesh.weatherapp.datamodel.Weather;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import uk.co.samuelwall.materialtaptargetprompt.MaterialTapTargetPrompt;

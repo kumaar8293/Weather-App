@@ -1,4 +1,4 @@
-package com.example.weatherapp.datamodel;
+package com.mukesh.weatherapp.datamodel;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

@@ -1,7 +1,7 @@
-package com.example.weatherapp.restapi;
+package com.mukesh.weatherapp.restapi;
 
 
-import com.example.weatherapp.datamodel.Weather;
+import com.mukesh.weatherapp.datamodel.Weather;
 
 import java.util.Map;
 

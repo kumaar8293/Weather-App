@@ -1,4 +1,4 @@
-package com.example.weatherapp.view.splash;
+package com.mukesh.weatherapp.view.splash;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,8 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.example.weatherapp.R;
-import com.example.weatherapp.view.home.HomeActivity;
+import com.mukesh.weatherapp.R;
+import com.mukesh.weatherapp.view.home.HomeActivity;
 
 
 public class SplashActivity extends AppCompatActivity {
@@ -18,12 +18,9 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
 
         final Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                startActivity(new Intent(SplashActivity.this, HomeActivity.class));
-                finish();
-            }
-        }, 2000);
+        handler.postDelayed(() -> {
+            startActivity(new Intent(SplashActivity.this, HomeActivity.class));
+            finish();
+        }, 1000);
     }
 }

@@ -1,4 +1,4 @@
-package com.example.weatherapp.restapi;
+package com.mukesh.weatherapp.restapi;
 
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
